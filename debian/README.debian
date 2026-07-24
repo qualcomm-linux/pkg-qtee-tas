@@ -1,0 +1,22 @@
+qtee-tas for Debian
+====================
+
+This package installs proprietary Qualcomm Trusted Application (TA) binary
+blobs required by the QTEE (Qualcomm Trusted Execution Environment) firmware
+stack.
+
+Installed files
+----------------
+
+The TA blobs are installed to:
+
+  /lib/qtee-tas/
+
+where they are loaded at runtime by the TEE supplicant or related firmware
+services. No configuration is required or provided by this package.
+
+Architecture
+------------
+
+This package is built only for arm64, matching the platforms on which the
+Qualcomm QTEE firmware stack is used.
