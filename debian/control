@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.0
 Homepage: https://github.com/qualcomm/qtee-tas
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-qtee-tas
-Vcs-Git: https://github.com/qualcomm-linux/pkg-qtee-tas -b debian/qcom-next
+Vcs-Git: https://github.com/qualcomm-linux/pkg-qtee-tas -b qli-staging/debian/latest
 
 Package: qtee-tas
 Architecture: arm64
