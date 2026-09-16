@@ -1,3 +1,10 @@
+qtee-tas (0.1.0-0qli+staging1~bpo13+1) trixie; urgency=medium
+
+  [ Abhinaba Rakshit ]
+  * Rebuild for trixie.
+
+ -- Abhinaba Rakshit <arakshit.rakshit@oss.qualcomm.com>  Thu, 17 Sep 2026 01:22:07 +0530
+
 qtee-tas (0.1.0-0qli+staging1) UNRELEASED; urgency=low
 
   [ Abhinaba Rakshit ]
