@@ -1,6 +1,8 @@
 Source: qtee-tas
 Section: non-free/misc
 Maintainer: Abhinaba Rakshit <abhinaba.rakshit@oss.qualcomm.com>
+Uploaders:
+ Lukas Märdian <lukas.maerdian@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.7.0
