@@ -3,7 +3,8 @@ Section: non-free/misc
 Priority: optional
 Maintainer: Abhinaba Rakshit <abhinaba.rakshit@oss.qualcomm.com>
 Rules-Requires-Root: no
-Build-Depends: debhelper-compat (= 13)
+Build-Depends:
+ debhelper-compat (= 13),
 Standards-Version: 4.7.0
 Homepage: https://github.com/qualcomm/qtee-tas
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-qtee-tas
@@ -19,4 +20,5 @@ Description: Qualcomm QTEE Trusted Application (TA) firmware binaries
  .
  The binaries are deployed to /lib/qtee-tas/ and are loaded at runtime
  by the TEE supplicant or related firmware services.
-Depends: ${misc:Depends}
+Depends:
+ ${misc:Depends},
