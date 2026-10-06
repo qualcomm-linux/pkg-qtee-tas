@@ -1,0 +1,7 @@
+# .mbn files are signed secure-world payloads, not host Debian libraries or
+# executables. Their ELF metadata describes the QTEE runtime environment.
+binary-from-other-architecture [usr/lib/qtee-tas/qcm2290/tzecotestapp.mbn]
+undeclared-elf-prerequisites (libcmnlib.so) [usr/lib/qtee-tas/*/*.mbn]
+hardening-no-relro [usr/lib/qtee-tas/*/*.mbn]
+# The test TA contains diagnostic strings with this intentional upstream typo.
+spelling-error-in-binary Dont Don't [usr/lib/qtee-tas/*/tzecotestapp.mbn]
