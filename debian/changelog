@@ -1,12 +1,13 @@
-qtee-tas (0.1.0-1qli1~) UNRELEASED; urgency=medium
+qtee-tas (0.1.0-1qli1) forky; urgency=medium
 
+  [ Lukas Märdian ]
   * Rebuild for QLI.
   * d/changelog: Fix version after +staging deployment to QLI.
     - The "-1" should be dropped after the next upstream version bump as
       this is not currently in Debian.
   * d/gbp.conf: Update for QLI.
 
- -- Lukas Märdian <lukas.maerdian@oss.qualcomm.com>  Wed, 07 Oct 2026 12:03:09 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Wed, 07 Oct 2026 10:06:30 +0000
 
 qtee-tas (0.1.0-0qli+staging3) forky; urgency=medium
 
