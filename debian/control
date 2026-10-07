@@ -1,22 +1,23 @@
 Source: qtee-tas
 Section: non-free/misc
-Priority: optional
 Maintainer: Abhinaba Rakshit <abhinaba.rakshit@oss.qualcomm.com>
-Rules-Requires-Root: no
-Build-Depends: debhelper-compat (= 13)
+Uploaders:
+ Lukas Märdian <lukas.maerdian@oss.qualcomm.com>,
+Build-Depends:
+ debhelper-compat (= 13),
 Standards-Version: 4.7.0
 Homepage: https://github.com/qualcomm/qtee-tas
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-qtee-tas
-Vcs-Git: https://github.com/qualcomm-linux/pkg-qtee-tas -b qli-staging/debian/latest
+Vcs-Git: https://github.com/qualcomm-linux/pkg-qtee-tas.git
 
 Package: qtee-tas
 Architecture: arm64
-Section: non-free/misc
 Description: Qualcomm QTEE Trusted Application (TA) firmware binaries
  This package installs proprietary Qualcomm Trusted Application (TA)
  binary blobs required by the QTEE (Qualcomm Trusted Execution Environment)
  firmware stack.
  .
- The binaries are deployed to /lib/qtee-tas/ and are loaded at runtime
+ The binaries are deployed to /usr/lib/qtee-tas/ and are loaded at runtime
  by the TEE supplicant or related firmware services.
-Depends: ${misc:Depends}
+Depends:
+ ${misc:Depends},

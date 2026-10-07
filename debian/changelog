@@ -1,3 +1,19 @@
+qtee-tas (0.1.0-0qli+staging2) forky; urgency=medium
+
+  [ Lukas Märdian ]
+  * d/control: Wrap-and-sort.
+  * d/qtee-tas.install: Move files to non-aliased usr/lib/qtee-tas location.
+  * d/control: Drop implicit & inherited fields.
+  * d/control: Add myself as an uploader.
+  * d/control: Adopt Vcs-Git and description.
+  * d/upstream: Add metadata.
+  * d/*.lintian-overrides: Ignore warnings for signed secure-world TA payloads.
+  * d/rules: Cleanup for pre-built binaries.
+  * d/copyright: Update license & non-free disclaimer.
+  * d/qtee-tas.lintian-overrides: Hide copyright years marking.
+
+ -- Debusine Action Bot <noreply@bot.invalid>  Wed, 07 Oct 2026 07:59:40 +0000
+
 qtee-tas (0.1.0-0qli+staging1~bpo13+1) trixie; urgency=medium
 
   [ Abhinaba Rakshit ]
@@ -5,7 +21,7 @@ qtee-tas (0.1.0-0qli+staging1~bpo13+1) trixie; urgency=medium
 
  -- Abhinaba Rakshit <arakshit.rakshit@oss.qualcomm.com>  Thu, 17 Sep 2026 01:22:07 +0530
 
-qtee-tas (0.1.0-0qli+staging1) UNRELEASED; urgency=low
+qtee-tas (0.1.0-0qli+staging1) forky; urgency=medium
 
   [ Abhinaba Rakshit ]
   * Initial release with upstream 0.1.0.
