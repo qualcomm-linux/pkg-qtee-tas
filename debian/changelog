@@ -1,8 +1,9 @@
-qtee-tas (0.1.0-0qli+staging2~bpo13+1~) UNRELEASED; urgency=medium
+qtee-tas (0.1.0-0qli+staging2~bpo13+1) trixie; urgency=medium
 
+  [ Lukas Märdian ]
   * Rebuild for trixie.
 
- -- Lukas Märdian <lukas.maerdian@oss.qualcomm.com>  Wed, 07 Oct 2026 10:05:28 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Wed, 07 Oct 2026 08:08:51 +0000
 
 qtee-tas (0.1.0-0qli+staging2) forky; urgency=medium
 
