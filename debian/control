@@ -17,6 +17,6 @@ Description: Qualcomm QTEE Trusted Application (TA) firmware binaries
  binary blobs required by the QTEE (Qualcomm Trusted Execution Environment)
  firmware stack.
  .
- The binaries are deployed to /lib/qtee-tas/ and are loaded at runtime
+ The binaries are deployed to /usr/lib/qtee-tas/ and are loaded at runtime
  by the TEE supplicant or related firmware services.
 Depends: ${misc:Depends}

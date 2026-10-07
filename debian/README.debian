@@ -10,7 +10,7 @@ Installed files
 
 The TA blobs are installed to:
 
-  /lib/qtee-tas/
+  /usr/lib/qtee-tas/
 
 where they are loaded at runtime by the TEE supplicant or related firmware
 services. No configuration is required or provided by this package.
