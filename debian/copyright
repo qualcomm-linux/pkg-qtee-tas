@@ -1,21 +1,25 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Disclaimer:
+ This package distributes pre-built Qualcomm Trusted Applications under the
+ Qualcomm.nologin.binaries.license. The TA images are proprietary secure-world
+ payloads and are therefore placed in the non-free archive area.
 Upstream-Name: qtee-tas
 Upstream-Contact: https://github.com/qualcomm/qtee-tas
 Source: https://github.com/qualcomm/qtee-tas
 
 Files: *
-Copyright:
- Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- All rights reserved.
- Confidential and Proprietary - Qualcomm Technologies, Inc.
-License: Qualcomm-Nologin-Binaries
-
-Files: debian/*
-Copyright:
- Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+Copyright: Qualcomm Technologies, Inc. and/or its subsidiaries.
 License: BSD-3-Clause
 
-License: Qualcomm-Nologin-Binaries
+Files: ta/*
+Copyright: Qualcomm Technologies, Inc. and/or its subsidiaries.
+License: Qualcomm.nologin.binaries.license
+
+Files: debian/*
+Copyright: Qualcomm Technologies, Inc. and/or its subsidiaries.
+License: BSD-3-Clause
+
+License: Qualcomm.nologin.binaries.license
  PLEASE READ THIS LICENSE AGREEMENT ("AGREEMENT") CAREFULLY. THIS AGREEMENT IS
  A BINDING LEGAL AGREEMENT ENTERED INTO BY AND BETWEEN YOU (OR IF YOU ARE
  ENTERING INTO THIS AGREEMENT ON BEHALF OF AN ENTITY, THEN THE ENTITY THAT YOU
