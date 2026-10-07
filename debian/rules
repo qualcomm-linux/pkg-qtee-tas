@@ -3,3 +3,13 @@
 	dh $@
 
 override_dh_strip:
+	# The .mbn files are signed QTEE payloads; stripping would invalidate them.
+	:
+
+override_dh_dwz:
+	# These payloads are opaque secure-world images without Debian debug data.
+	:
+
+override_dh_shlibdeps:
+	# QTEE resolves these dependencies in the secure world, not via dpkg-shlibdeps.
+	:
