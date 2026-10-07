@@ -1,8 +1,9 @@
-qtee-tas (0.1.0-0qli+staging3~) UNRELEASED; urgency=medium
+qtee-tas (0.1.0-0qli+staging3) forky; urgency=medium
 
+  [ Debusine Action Bot ]
   * Unreleased changes
 
- -- Debusine Action Bot <noreply@bot.invalid>  Wed, 07 Oct 2026 08:03:19 +0000
+ -- Debusine Action Bot <noreply@bot.invalid>  Wed, 07 Oct 2026 09:47:59 +0000
 
 qtee-tas (0.1.0-0qli+staging2) forky; urgency=medium
 
