@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.0
 Homepage: https://github.com/qualcomm/qtee-tas
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-qtee-tas
-Vcs-Git: https://github.com/qualcomm-linux/pkg-qtee-tas -b qcom/ubuntu/resolute
+Vcs-Git: https://github.com/qualcomm-linux/pkg-qtee-tas.git
 
 Package: qtee-tas
 Architecture: arm64
@@ -17,6 +17,6 @@ Description: Qualcomm QTEE Trusted Application (TA) firmware binaries
  binary blobs required by the QTEE (Qualcomm Trusted Execution Environment)
  firmware stack.
  .
- The binaries are deployed to /lib/qtee-tas/ and are loaded at runtime
+ The binaries are deployed to /usr/lib/qtee-tas/ and are loaded at runtime
  by the TEE supplicant or related firmware services.
 Depends: ${misc:Depends}
