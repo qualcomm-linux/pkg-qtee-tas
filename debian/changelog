@@ -1,5 +1,6 @@
-qtee-tas (0.1.0-0qli+staging2~) UNRELEASED; urgency=medium
+qtee-tas (0.1.0-0qli+staging2) forky; urgency=medium
 
+  [ Lukas Märdian ]
   * d/control: Wrap-and-sort.
   * d/qtee-tas.install: Move files to non-aliased usr/lib/qtee-tas location.
   * d/control: Drop implicit & inherited fields.
@@ -11,7 +12,7 @@ qtee-tas (0.1.0-0qli+staging2~) UNRELEASED; urgency=medium
   * d/copyright: Update license & non-free disclaimer.
   * d/qtee-tas.lintian-overrides: Hide copyright years marking.
 
- -- Lukas Märdian <lukas.maerdian@oss.qualcomm.com>  Wed, 07 Oct 2026 09:56:34 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Wed, 07 Oct 2026 07:59:40 +0000
 
 qtee-tas (0.1.0-0qli+staging1) forky; urgency=medium
 
